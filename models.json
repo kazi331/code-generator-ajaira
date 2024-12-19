@@ -1,0 +1,28 @@
+{
+    "User": {
+        "id": "integer",
+        "name": "string",
+        "email": "string"
+    },
+    "Post": {
+        "id": "integer",
+        "title": "string",
+        "content": "text",
+        "userId": "integer"
+    },
+    "Comment": {
+        "id": "integer",
+        "content": "text",
+        "userId": "integer",
+        "postId": "integer"
+    },
+    "Like": {
+        "id": "integer",
+        "userId": "integer",
+        "postId": "integer"
+    },
+    "Country": {
+        "id": "integer",
+        "name": "string"
+    }
+}

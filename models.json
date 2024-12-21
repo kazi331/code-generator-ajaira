@@ -24,5 +24,11 @@
     "Country": {
         "id": "integer",
         "name": "string"
+    },
+    "message": {
+        "id": "integer",
+        "content": "text",
+        "userId": "integer",
+        "receiverId": "integer"
     }
 }
